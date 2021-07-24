@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>最終課題</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    
+      <h1> Kuni's photos </h1>
+    
+  </header>
+
+  <div>
+      <img src="img/img1.jpg" alt="">
+
+  </div>
+
+  <section id="photos">
+    <div class="inner">
+      <h2>Photos</h2>
+      <div class="photos-container flex">
+        <div class="photos-content">
+          <button class="toggle"><img src="img/img02.jpg" alt="">
+          <h3>いつかの満月</h3>
+          </button>
+
+          <p class="info">0723</p>
+          
+        </div>
+
+        <div class="photos-content">
+          <button class="toggle">
+            <img src="img/img03.jpg" alt="">
+            <h3>海</h3>
+          </button>
+          
+          <p class="info">0721</p>
+        </div>
+
+        <div class="photos-content">
+          <button class="toggle">
+            
+              <img src="img/img04.jpg" alt="">
+              <h3>木　南国風</h3>
+
+          </button>
+          
+          <p class="info">神戸舞子　0723</p>
+        </div>
+
+        <div class="photos-content">
+          <button class="toggle">
+            <img src="img/img05.jpg" alt="">
+            <h3>いつかの夕日</h3>
+          </button>
+          <p class="info">0717</p>
+        </div>
+
+        <div class="photos-content">
+          <button class="toggle">
+            <img src="img/img06.jpg" alt="">
+            <h3>淡路</h3>
+          </button>
+          <p class="info">しあわせのパンケーキ（パンケーキの写真ではない）
+          </p>
+        </div>
+
+        <div class="photos-content ">
+          <button class="toggle">
+            <img src="img/img07.jpg" alt="">
+            <h3>いつかの夕日</h3>
+          </button>
+          <p class="info">どこかの夕日0503</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact"></div>
+  <h1 class="contact-ttl">Contact</h1>
+
+  <form action="">
+      <table class="contact-table">
+          <tr>
+              <th class="contact-item">名前</th>
+              <td class="contact-body">
+                  <input type="text" name="名前" class="form-text" />
+              </td>
+          </tr>
+          <tr>
+              <th class="contact-item">性別</th>
+              <td class="contact-body">
+                  <label class="contact-sex">
+                      <input type="radio" name="性別" />
+                      <span class="contact-sex-txt">男</span>
+                  </label>
+                  <label class="contact-sex">
+                      <input type="radio" name="性別" />
+                      <span class="contact-sex-txt">女</span>
+                  </label>
+              </td>
+          </tr>
+          <tr>
+              <th class="contact-item">メール</th>
+              <td class="contact-body">
+                  <input type="email" name="メール" class="form-text" />
+              </td>
+          </tr>
+          <tr>
+              <th class="contact-item">電話</th>
+              <td class="contact-body">
+                  <input type="tel" name="電話" class="form-text" />
+              </td>
+          </tr>
+          <tr>
+            <th class="contact-item">お問い合わせ内容</th>
+            <td class="contact-body">
+                <textarea name="問い合わせ" class="form-textarea"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <input class="contact-submit" type="submit" value="送信" />
+</form>
+</div>
+
+<footer>
+  <small>&copy;&nbsp;2021&nbsp;Kuniyasuadachi.</small>
+</footer>
+
+
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
